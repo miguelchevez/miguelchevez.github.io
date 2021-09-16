@@ -5,9 +5,5 @@
     top: 0px;
     width: 100%;
     display: block;
-    float: left;
-}
-  
-body {
-    padding-top: 60px;
+    float: right;
 }
