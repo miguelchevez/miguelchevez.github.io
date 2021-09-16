@@ -1,18 +1,8 @@
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
+ul.nav li:first-child a {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
-
-nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-body {
-    margin-top: 30px;
+ul.nav li:last-child a {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
