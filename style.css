@@ -4,6 +4,7 @@ nav{
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  margin-bottom: 30px;
 }
 
 nav a {
@@ -15,11 +16,7 @@ nav a {
   text-decoration: none;
 }
 
-ul.nav li:first-child a {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-ul.nav li:last-child a {
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+nav a:hover {
+  background: #ddd;
+  color: black;
 }
