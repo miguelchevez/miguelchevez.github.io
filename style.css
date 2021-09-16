@@ -1,9 +1,13 @@
 nav{
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+  position: top;
   top: 0px;
   width: 100%;
+}
+
+ul.nav li {
+  display: inline;
 }
 
 body {
