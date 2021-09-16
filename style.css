@@ -1,21 +1,18 @@
 .nav {
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    position: -webkit-sticky;
+	position: sticky;
     top: 0px;
     width: 100%;
 }
   
 .nav ul {
-    list-style: none;
+    list-style: inline;
     background-color: #444;
     text-align: center;
     padding: 0;
     margin: 0;
-}
-  
-.nav li {
-    display: inline;
 }
   
 body {
